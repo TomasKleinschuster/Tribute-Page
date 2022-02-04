@@ -6,8 +6,77 @@
     box-sizing: border-box;
 }
 
-/*  */
+/* BODY STYLE */
 
 body {
-    background-color: #fff;
+    background-color: #d9cdbd;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+
+/* HEADER */
+h1 {
+    letter-spacing: 0.1em;
+}
+header p {
+    font-size: 1em;
+}
+
+
+/* MAIN */
+
+/* RESPONSIVE IMG */
+img {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* IMG CAPTION */
+#img-caption {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
+/* QUOTES TITLE */
+h3 {
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+/* QUOTES LIST */
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+@media (min-width: 760px){
+    ul {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+li {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 10px;
+    padding: 5px;
+    border: 1px dotted black;
+}
+
+/* BLOCKQUOTE */
+blockquote p {
+    font-size: 1em;
+    font-style: italic;
+}
+blockquote cite {
+    font-size: 0.8em;
+    font-style: italic;
 }
